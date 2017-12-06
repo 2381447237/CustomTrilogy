@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical">
+
+ <!--   <com.example.testcustomview2017_4_28.CustomView 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       /> -->
+       
+       <Button 
+           android:text="带阴影的按钮"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/my_list"
+           android:padding="10dp"
+           android:layout_margin="5dp"
+           />
+
+       <Button 
+           android:text="带selector的按钮"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/my_list2"
+           android:padding="10dp"
+           android:layout_margin="5dp"
+           />
+       
+       <TextView 
+           android:text="带阴影的TextView"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/my_list"
+           android:padding="10dp"
+           android:layout_margin="5dp"
+           />
+       
+       <Button 
+           android:id="@+id/btn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="利用Paint.setShadowLayer实现阴影效果"
+           />
+           
+        <Button 
+           android:id="@+id/btn2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="TextView及其派生类使用ShadowLayer添加阴影效果"
+           />
+         <Button 
+           android:id="@+id/btn3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="BlurMaskFilter实现发光效果"
+           />
+</LinearLayout>

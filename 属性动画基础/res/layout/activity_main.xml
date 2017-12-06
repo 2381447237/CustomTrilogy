@@ -1,0 +1,258 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical">
+
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="改变透明度"
+           />
+       
+       <TextView 
+           android:background="#ff0000"
+           android:id="@+id/tv1"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="透明度"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+       
+       <Button 
+           android:id="@+id/btn2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="bottom"
+           android:text="停止"
+           />
+   </LinearLayout>
+
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="开始旋转"
+           />
+       
+       <TextView 
+           android:background="#00ff00"
+           android:id="@+id/tv2"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="旋转"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+      
+   </LinearLayout>
+ <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="开始旋转"
+           />
+       
+       <TextView 
+           android:background="#00ff00"
+           android:id="@+id/tv3"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="围绕X轴旋转"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+      
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="开始旋转"
+           />
+       
+       <TextView 
+          android:background="#00ff00"
+           android:id="@+id/tv4"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="围绕Y轴旋转"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+      
+   </LinearLayout>
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="开始平移"
+           />
+       
+       <TextView 
+          android:background="#0000ff"
+           android:id="@+id/tv5"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="X轴上的平移"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+      
+   </LinearLayout>
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="开始平移"
+           />
+       
+       <TextView 
+          android:background="#0000ff"
+           android:id="@+id/tv6"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="Y轴上的平移"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+      
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn8"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="开始缩放"
+           />
+       
+       <TextView 
+          android:background="#00ffff"
+           android:id="@+id/tv7"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="X轴上的缩放"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+      
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn9"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="开始缩放"
+           />
+       
+       <TextView 
+          android:background="#00ffff"
+           android:id="@+id/tv8"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="Y轴上的缩放"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+      
+   </LinearLayout>
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btn11"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="开始变色"
+           />
+       
+       <TextView 
+           android:id="@+id/tv9"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="改变背景颜色"
+           android:gravity="center"
+           android:padding="10dp"
+           />
+      
+   </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <Button 
+           android:id="@+id/btn10"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="自定义ObjectAnimator"
+           />
+   <com.example.testanimation2017_4_252.MyPointView 
+       android:id="@+id/mpv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       />
+  </LinearLayout>
+</LinearLayout>
